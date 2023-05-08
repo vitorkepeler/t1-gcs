@@ -19,11 +19,7 @@ public class Main {
                     System.out.println("Digite o número desejado: ");
                     int y;
                     y = sc.nextInt();
-                    for (int i = 1; i <= y; i++) {
-                        if (y % i == 0) {
-                            System.out.println(i);
-                        }
-                    }
+                    bee1157(y);
                     break;
                 case 3:
                     sair = true;
@@ -34,7 +30,20 @@ public class Main {
         }
     }
 
-    public static void bee1178(double x){
+    public static int[] bee1157(int y){
+        int result[];
+        int id = 0;
+        result = new int [y];
+        for (int i = 1; i <= y; i++) {
+            if (y % i == 0) {
+                System.out.println(i);
+                result[id] = i;
+                id++;
+            }
+        }
+        return result;
+    }
+    public static double[] bee1178(double x){
         double n[];
         n = new double [100];
         n[0] = x;
@@ -49,5 +58,6 @@ public class Main {
             System.out.format("%.4f", n[i]);
             System.out.println();
         }
+        return n;
     }
 }

@@ -234,4 +234,7 @@
     <MESSAGE value="adjusting maven" />
     <option name="LAST_COMMIT_MESSAGE" value="adjusting maven" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/t1_gcs$TestMain.ic" NAME="TestMain Coverage Results" MODIFIED="1683505819650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
 </project>

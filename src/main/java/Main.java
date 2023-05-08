@@ -2,9 +2,9 @@ import java.io.IOException;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException {
+        Scanner sc = new Scanner(System.in);
+        boolean sair = false;
 
-<<<<<<< Updated upstream
-=======
         while (sair != true) {
             System.out.println("\n Escolha a função desejada: \n 1. Calcular divisores (bee1157) \n 2. Preencher vetor com metade do valor anterior (bee 1178) \n 3. Sair");
             int s = sc.nextInt();
@@ -58,8 +58,6 @@ public class Main {
             System.out.format("%.4f", n[i]);
             System.out.println();
         }
-
         return n;
->>>>>>> Stashed changes
     }
 }

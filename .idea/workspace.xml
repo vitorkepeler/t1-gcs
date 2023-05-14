@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b602425b-3783-4b78-a999-c025dcd08572" name="Changes" comment="adjusting maven">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b602425b-3783-4b78-a999-c025dcd08572" name="Changes" comment="adjusting JUNIT">
       <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -230,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684024659822</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adjusting JUNIT">
+      <created>1684075973873</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684075973873</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +255,8 @@
     <MESSAGE value="reverting commit" />
     <MESSAGE value="adding bee 1178" />
     <MESSAGE value="adjusting maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusting maven" />
+    <MESSAGE value="adjusting JUNIT" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusting JUNIT" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/t1_gcs$TestMain.ic" NAME="TestMain Coverage Results" MODIFIED="1683505819650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

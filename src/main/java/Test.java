@@ -1,7 +1,6 @@
-import org.junit.Test;
 import static org.junit.Assert.*;
-public class TestMain {
-        @Test
+public class Test {
+        @org.junit.Test
         public void testBee1178() {
             double x = 200000;
             double[] expected = {
@@ -25,7 +24,7 @@ public class TestMain {
             assertArrayEquals(expected, result, 0.0001);
         }
 
-        @Test
+        @org.junit.Test
         public void testBee1157() {
             int y = 10;
             int[] expected = new int[y];
